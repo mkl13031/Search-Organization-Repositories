@@ -6,7 +6,7 @@ and I think it is not essential in this testing, but it is good for user experie
 Next, you need to `yarn start` or `npm start` to build the test environment in your local machine,
 and just wait a minute, you will see the app show up automated. if not you can open the [http://localhost:3000](http://localhost:3000) in your browser.
 
-Finally, if everything works, you can start to build the project, using the `yarn build` or `npm build`,
+Finally, if everything works, you can start to build the project, using the `yarn build` or `npm run build`,
 after it finishes, you can `serve -s build`, it will run in production mode.
 
 # About the project structure
