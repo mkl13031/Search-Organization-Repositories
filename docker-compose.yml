@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  node:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/app
+    command: sh -c "yarn global add serve && serve -s build"
+    ports:
+      - "3000:3000"
+    stdin_open: true
